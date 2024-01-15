@@ -15,7 +15,7 @@ This Application consist of App.js(root file) file outside src folder . Src fold
 
 **Components** - This folder consists reusable component AutoComplete folder which has respective ts and css file in it.
 
-**MockDat** - This folder has employee.json file, where mock employee data is available.
+**MockData** - This folder has employee.json file, where mock employee data is available.
 
 **ts** - This folder has interfaces folder, which consist file Employee.interface.ts file
 
