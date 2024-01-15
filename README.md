@@ -19,3 +19,7 @@ This Application consist of App.js(root file) file outside src folder . Src fold
 
 **ts** - This folder has interfaces folder, which consist file Employee.interface.ts file
 
+**Demo**
+
+https://github.com/somya95priya/React-ts-assignment/assets/13369970/890c4b76-95c8-4790-8003-8ad7e3f5b629
+
