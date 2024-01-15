@@ -23,3 +23,7 @@
   font-weight: 600;
   margin-top: 100px;
 }
+.highlighted-text{
+  background-color: yellowgreen;
+  font-weight: bold;
+}

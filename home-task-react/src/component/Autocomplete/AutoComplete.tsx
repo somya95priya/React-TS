@@ -59,7 +59,7 @@ const Autocomplete = () => {
                             setSearchTerm(value.name as string)
                         }}>
                             {string}
-                            <span style={{ "backgroundColor": "#FFFF00" }}>
+                            <span className='highlighted-text'>
                                 {highlightedText}
                             </span>
                             {endString}
@@ -74,8 +74,7 @@ const Autocomplete = () => {
         return <p>Loading...</p>;
     }
     return (
-        <div className="srchField">
-            <div className="valueField">
+            <div>
                 <input
                 className='input-text'
                     type="text"
@@ -91,7 +90,6 @@ const Autocomplete = () => {
                 )}
                 {searchTerm.length > 0 && !filteredEmployeeDetail.length && (<div className='no-result-text'>No Results found!</div>)}
             </div>
-        </div>
     );
 }
 
