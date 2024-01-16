@@ -9,7 +9,7 @@ class MyComponent extends Component {
     return <div>{this.props.value}</div>;
   }
 
-Pure component is also  class base component but it prevents the unnecessary re-rendring of components if there is no change in props or state. Basically it does shallow comparison.
+- Pure component is also  class base component but it prevents the unnecessary re-rendring of components if there is no change in props or state. Basically it does shallow comparison.
 
 class MyPureComponent extends PureComponent {
   render() {
